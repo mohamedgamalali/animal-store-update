@@ -181,5 +181,3 @@ router.delete('/prize/delete',[
 router.post('/notfication/clear',isAuth,adminController.postClearNotfication);
 
 module.exports = router;
-
-//mongodb+srv://mohamed:gamal@cluster0-puljc.mongodb.net/animalStore
